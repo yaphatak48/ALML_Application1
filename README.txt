@@ -35,12 +35,38 @@ coupon 72.22222222222221 %
 Conclusion: There is not much difference between acceptance rate between
 drivers who go to a bar more than once a month and are over the age of 25 to
 the all others
-
-
 """
 Based on the acceptance rates based on cases cased described earlier, it is very clear that
 drivers who go to bars atleast once a month has ~71% chance of accepting the Bar coupon.
 
 Passangers, marital status or age doesn't affect the acceptance rate that much.
+"""
+
+
+###############OWN ANALYSIS AND INVESTIGATION CASE BELOW##############
+#Finding out how income affects acceptance of coupon
+#Finding the acceptance rate for 3 income categories below 1)income less than
+50k 2)income between 50k and 100k 3)income more than 100k
+
+Total number of drivers who accepted the coupon based and has income more than
+100k =   1004
+Portion of drivers who accepted the coupon and has income more than 100k
+13.9251040221914 %
+
+Total number of drivers who accepted the coupon based and has income between
+50k and 100k=   2324
+Portion of drivers who accepted the coupon based and has income between 50k
+and 100k 32.23300970873787 %
+
+
+Total number of drivers who accepted the coupon and has income less than 50k =
+3882
+Portion of drivers who accepted the coupon and has income less than 50k
+53.84188626907074 %
+"""
+Based on the acceptance rates based on 3 income categories , it is very clear
+that drivers with income less than 50k has ~50% chance pf accepting the
+accepting the Bar coupon.
+
 """
 
